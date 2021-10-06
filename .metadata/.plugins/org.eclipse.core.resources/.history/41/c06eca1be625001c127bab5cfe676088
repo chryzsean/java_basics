@@ -1,0 +1,11 @@
+
+public class bebe {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		byte k = 37, y=2;
+		int l=37%2;
+		System.out.println(l);
+	}
+
+}

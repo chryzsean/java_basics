@@ -1,0 +1,15 @@
+
+public class java_Arrays {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//	array = used to store multiple values in a single variable
+		
+		String[] cars = {"Camaro", "Corvette", "Tesla"}; // index starts at 0
+		
+		cars[0] = "Honda";
+		
+		System.out.println(cars[2]);
+	}
+
+}

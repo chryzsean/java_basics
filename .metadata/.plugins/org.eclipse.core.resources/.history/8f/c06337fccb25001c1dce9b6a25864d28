@@ -1,0 +1,36 @@
+
+public class java_printf {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// printf() = 	an optional method to control, format, and display text to the console window
+		//				two arguments = format string + (object/variable/value)
+		//				% [flags] [precision] [width] [conversion-character]
+		
+		
+		System.out.printf("This is a format string %d", 123); // you need a % and place it wherever
+		
+		
+		
+		boolean myBoolean = true;
+		char myChar = '@';
+		String myString = "Bryant";
+		int myInt = 24;
+		double myDouble = 1000;
+		
+		
+		System.out.printf("%b",myBoolean);
+		
+		
+		// [conversion-character]
+		//System.out.printf("%b",myBoolean);
+		//System.out.printf("%c",myChar);
+		//System.out.printf("%s",myString);
+		//System.out.printf("%d",myInt);
+		//System.out.printf("%f",myDouble);
+		
+
+	}
+
+}
+	

@@ -1,0 +1,21 @@
+public class java_methods {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		// method = a block of code that is executed whenever it is called upon
+		
+		Message();
+		Message();
+		Message();
+		
+		
+	}
+	
+	
+	static void Message() {
+		
+		System.out.println("Hello Worlds");
+	}
+
+}
